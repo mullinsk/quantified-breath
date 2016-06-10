@@ -1,0 +1,17 @@
+{
+  "name": "quantified-breath",
+  "version": "1.0.0",
+  "homepage": "https://github.com/mullinsk/quantified-breath",
+  "authors": [
+    "Kathleen Mullins <mullinsk@ccs.neu.edu>"
+  ],
+  "description": "PFT App",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

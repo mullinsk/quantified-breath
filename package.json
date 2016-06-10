@@ -1,0 +1,41 @@
+{
+  "name": "quantified-breath",
+  "version": "1.0.0",
+  "description": "PFT Data viz",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mullinsk/quantified-breath.git"
+  },
+  "keywords": [
+    "data",
+    "pulmonary",
+    "respiratory"
+  ],
+  "author": "Kathleen Mullins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mullinsk/quantified-breath/issues"
+  },
+  "homepage": "https://github.com/mullinsk/quantified-breath",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.2.0",
+    "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "hbs": "^4.0.0",
+    "mongod": "^1.3.0",
+    "mongoose": "^4.4.20",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "gulp-express": "^0.3.5",
+    "gulp-jshint": "^2.0.1",
+    "gulp-live-server": "0.0.30",
+    "gulp-livereload": "^3.8.1",
+    "gulp-watch": "^4.3.6",
+    "jshint": "^2.9.2",
+    "mongodb": "^2.1.21"
+  }
+}

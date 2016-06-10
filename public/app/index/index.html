@@ -1,0 +1,18 @@
+hello
+<table>
+	<tr>
+		<th>Date</th>
+		<th>fev1</th>
+		<th>fvc</th>
+		<th>fef 25-75</th>
+		<th>View More</th>
+	</tr>	
+	<tr ng-repeat="pft in vm.pfts">
+		<td>{{pft.date}}</td>
+		<td>{{pft.fev}}</td>
+		<td>{{pft.fvc}}</td>
+		<td>{{pft.fef}}</td>
+		<td><a href="#/detail/{{pft._id}}">View More</a></td>
+
+	</tr>
+</table>
