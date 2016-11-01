@@ -13,11 +13,11 @@
 			controller: 'mainController',
 			controllerAs: 'vm'
 		})
-		// .when('/detail/:restId', {
-		// 	templateUrl: 'app/detail/detail.html',
-		// 	controller: 'DetailController',
-		// 	controllerAs: 'vm'
-		// })
+		.when('/detail/:restId', {
+			templateUrl: 'app/detail/detail.html',
+			controller: 'DetailController',
+			controllerAs: 'vm'
+		})
 		// .when('/fev', {
 		// 	templateUrl: 'app/fev/fev.html',
 		// 	controller: 'fevController'

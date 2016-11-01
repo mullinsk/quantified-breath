@@ -22,8 +22,6 @@ router.post('/', function(req, res, next){
 
 		res.json(pft);
 	});
-
-
 });
 
 router.param('pft', function(req, res, next, id) {
